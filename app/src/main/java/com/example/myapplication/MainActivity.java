@@ -24,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public void onclickButton2(View v){
         Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com");
         startActivity(intent);
+        /*주석 추가*/
     }
 }
